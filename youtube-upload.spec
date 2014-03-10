@@ -11,6 +11,8 @@ BuildRequires:	python-gdata
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	python-gdata
+Requires:	python-progressbar
+Requires:	python-pycurl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
